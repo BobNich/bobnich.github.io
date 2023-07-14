@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .name {
+    font-family: 'Pacifico', cursive; /* Выбранный шрифт */
+    font-size: 40px;
+    color: #403434;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f2f8ff;
+    margin-bottom: 0;
+  }
+  
+  .intro-text {
+    width: 50%;
+  }
+  
+  .section-main-title {
+    font-size: 24px;
+    color: #4827a1;
+  }
+  
+  .profession {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .section {
+    padding: 40px;
+    background-color: #f2f8ff;
+    margin-bottom: 0px;
+    transform: translateZ(0);
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    will-change: transform, background-color;
+    position: relative;
+    z-index: 1;
+  }
+
+  .section:hover {
+    transform: translateY(-10px);
+    background-color: #eba4b4;
+  }
+  
+  .section-active {
+    transform: translateY(-10px);
+    background-color: #222; 
+  }
+  
+  .section-title {
+    color: #f2f8ff;
+    margin-top: 0;
+  }
+  
+  .divider {
+    height: 10px;
+    background-color: #c3e3f8;
+  }
+  
