@@ -58,7 +58,7 @@ body {
 
   .section:hover {
     transform: translateY(-10px);
-    background-color: #eba4b4;
+    background-color: #b1c5f7;
   }
   
   .section-active {
